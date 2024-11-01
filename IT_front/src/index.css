@@ -1,0 +1,2280 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+
+
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 24px !important;
+
+}
+
+/* Modern CSS properties for Firefox and other modern browsers */
+body {
+  scrollbar-width : thin ;
+    scrollbar-color: transparent  transparent;
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Cont {
+  background-image: url("../src/images/device.jpg");
+  background-repeat: no-repeat;
+  height: 89vh;
+
+}
+
+.allCont
+{
+  background-image: url("../src/images/device.jpg");
+  background-repeat: no-repeat;
+  min-height: 93vh;
+  /* background-size: ; */
+}
+
+.input {
+  color: white;
+  background: white;
+  border:none;
+  border-bottom: 1px solid rgba(133, 189, 215, 0.8784313725);
+  border-radius: 15px;
+  padding: 10px 25px;
+  box-shadow: #cff0ff 0px 10px 10px -5px;
+  border-inline: 2px solid transparent;
+}
+.input:focus {
+  color: white;
+  border:none;
+  border-bottom: 1px solid #8707ff;
+}
+
+.card{
+  background: #F8F9FD;
+  background: linear-gradient(0deg, #dddddd 0%, rgb(244, 247, 251) 100%);
+  border: 5px solid rgb(255, 255, 255);
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 30px 30px -20px;
+}
+
+.mar-4 {
+  margin-top: 1.5rem;
+}
+
+.btn{
+  color: white !important;
+  background-color: rgba(0, 110, 161, 0.878) !important;
+  /* color: black; */
+  padding: 10px 20px !important ;
+  margin-top: 18px !important;
+  font-size: 20px !important;
+  text-wrap : nowrap ;
+}
+.reserve div .btn{
+  font-size: 30px !important;
+  width: 120px !important;
+  height: 50px !important;
+}
+.btn2 {
+  color: white !important;
+  background-color: rgba(0, 110, 161, 0.878) !important;
+  /* color: black; */
+  border: none;
+  border-radius: 8%;
+  margin-top: 20px;
+  height: fit-content;
+  padding: 10px 20px 15px !important ;
+  font-size: large !important;
+}
+.mybtn {
+  background-color: rgba(47, 48, 48, 0.878) !important;
+}
+.mybtn:hover {
+  background-color: rgba(84, 85, 85, 0.878) !important;
+}
+.btn:hover , .btn2:hover{
+  background-color: rgb(20, 108, 240) !important;
+}
+.eyye {
+  width : 20px ; 
+  height : 30px 
+}
+.ml-n-1 {
+  margin-right: -40px;
+}
+.mt-b-1 {
+  margin-top: 33px;
+}
+/* .t-3 {
+  transform: translateY(1%);
+} */
+
+
+
+.danger {
+  color: white !important;
+  background-color: rgba(188, 16, 16, 0.878) !important ;
+  /* color: black; */
+
+}
+
+.danger:hover{
+  background-color: rgba(255, 0, 0, 0.878) !important
+}
+
+.table{
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.table-head{
+  background-color: rgba(133, 189, 215, 0.8784313725);
+  color: white;
+
+}
+.table-head{
+  background-color: rgba(133, 189, 215, 0.8784313725);
+  color: white;
+
+}
+.Toastify__toast {
+  font-size: large;
+  font-weight: 800;
+}
+.row-data tr {
+  color: rgb(97, 0, 0) !important;
+}
+.light-red {
+  color: rgb(97, 0, 0) !important;
+  font-weight: 700;
+}
+
+select {
+  background-color: white;
+}
+.ii{
+  margin-top: 60px !important;
+}
+
+.bg-patient{
+  background-color: #6B8A7A !important ;
+}
+.bg-patient:hover {
+  background-color: #5f776a !important ;
+}
+.bg-pa{
+  background-color: #254336 !important ;
+}
+.bg-pa:hover {
+  background-color: #204d39 !important ;
+}
+.bg-green{
+  background-color: #6eb395 !important ;
+}
+.bg-green:hover {
+  background-color: #1fa068 !important ;
+}
+
+.bg-finish {
+  background-color: #176B87 !important;
+}
+.bg-finish:hover {
+  background-color: #0e8bb4 !important;
+}
+
+.teal {
+  background-color: #38977b !important;
+  
+  padding: 4px  0px !important ;
+  width: fit-content !important ;
+}
+.teal:hover {
+  background-color: #2bbd91 !important;
+}
+
+.bg-graay{
+  background-color: #6c757d!important;
+}
+.bg-graay:hover {
+  background-color: #585858!important;
+}
+.purple {
+  background-color: #6f42c1!important;
+}
+.purple:hover {
+  background-color: #6c1cff!important;
+}
+.orange {
+  background-color: #c5712d!important;
+}
+.orange:hover {
+  background-color: #fd7e14!important;
+}
+.cyan {
+  background-color: #3fa5b4!important;
+}
+.cyan:hover {
+  background-color: #14bbd4!important;
+}
+.yellow{
+  background-color: #b98b00!important;
+  
+}
+.yellow:hover {
+  background-color: #dba80c!important;
+}
+.red{
+  background-color: #c44a35!important;
+}
+.red:hover {
+  background-color:rgb(188, 16, 16, 0.878)!important;
+}
+.bg-home {
+  background-color: #025f81 !important;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.bg-home:hover {
+  background-color: #067299 !important;
+}
+.m-cont {
+  background-image: url('../src/images/device.jpg');
+  height: 94vh;
+}
+.trans-cont  {
+  background-image: url('../src/images/device.jpg');
+  height: 100vh;
+}
+.m-1-cont {
+  background-image: url('../src/images/device.jpg');
+  height: 94vh;
+}
+.light-gray {
+  background-color: #f7f8f8;
+}
+
+.m-cont .my-container {
+  transform: translateY(1.5%);
+}
+
+.t-3 {
+  transform: translateY(1.5%) !important;
+}
+.t-5 {
+  transform: translateY(20%) !important;
+}
+
+.type {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  color: white !important;
+}
+
+.mn-1 {
+  margin-top: 8px !important;
+}
+.mn-20 {
+  margin-left: -70px !important;
+}
+.rad-5 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 5%;
+  font-size: 50px;
+  font-weight: 700;
+}
+.col-1 {
+  left: 0px;
+}
+.mycont > div {
+  transform: translateY(25%);
+}
+.mt-n-3 {
+  margin-top: -55px !important;
+  background-color: #f7f8f8;
+}
+.tx-3 {
+  transform: translateX(10%);
+}
+
+
+.pass .myeye {
+  background-color: #fff;
+  border-style: none;
+  color: rgb(85, 7, 7);
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  padding: 30px;
+  position: absolute;
+  top: -20px;
+  left: 15px;
+}
+.role .card {
+  width: 90% !important;
+  margin: auto !important;
+}
+
+
+.Contta {
+  background-image: url("../src/images/device.jpg");
+  height: 93vh;
+}
+.Contta .my-container {
+  transform: translateY(19%);
+}
+
+
+
+
+@media print {
+  @page {
+    margin: 00px; /* Removes default page margins */
+  }
+  html {
+    padding: 0px; 
+    margin: 00px;
+  }
+  body {
+    font-size: 12pt; 
+    height: 300cap;
+    padding: 0; 
+    margin: 0;
+  }
+  
+
+
+    /* Remove padding/margins for specific elements if necessary */
+  .content {
+      margin: 0px;
+      padding: 00px;
+    }
+
+  .print-content {
+    margin: 1cm; 
+  }
+  
+
+  .print-content p {
+    padding: 0.5cm 1cm; 
+  }
+  .no-print {
+    display: none !important;
+    background-color: #14bbd4;
+  }
+
+
+} 
+.bg-transparent {
+  background-color: transparent;
+}
+.full-height {
+  height: 100vh;
+}
+
+
+@media (min-width : 995px){
+.logOut {
+  display: block;
+}
+.LogOut {
+  display: none;
+}
+/* .row {
+  gap : 40px
+} */
+}
+
+h2 {
+  font-size: 24px !important;
+  margin-right: -14px !important;
+}
+
+
+@media ( min-width : 890px )and (max-width : 996px ){
+  
+  .bar .row .col input {
+    font-size: 14px !important;
+  }
+  .show .num-dev {
+    font-size: 15px !important;
+  }
+
+  .navbar-nav li a {
+    margin-left: 15px !important;
+
+}
+
+
+.myinput select {
+  padding: 7px 10px !important;
+  font-size: 17px !important;
+  font-weight: 600 !important;
+}
+  .logOut {
+    display: none;
+    
+  }
+  .LogOut{
+    display: block;
+    background-color: transparent;
+    border-style: none;
+    font-weight: bolder;
+    margin: 8px auto;
+
+    
+  }
+  .p-1 {
+    transform: translateY(-1%) !important;
+  }
+  .form {
+    margin: 0px !important;
+  }
+  .my-container {
+    margin: 0 auto !important;
+  }
+  h2 {
+    font-size: 21px !important;
+    margin-right: -8px !important;
+  }
+  .row {
+    gap: 5px !important;
+  }
+  .row input {
+    padding: 10px 6px !important;
+    width: 60% !important;
+  }
+  .my-container label {
+    font-size: 18px !important ;
+  }    
+  .row input {
+    font-size: 16px !important;
+  }
+  .area {
+    transform: translateX(6%) !important;
+    width: 98% !important;
+  }
+  .area input{
+    transform: translateY(7%) !important;
+
+  }
+.area label {
+  transform: translate(31% , -15%) !important;
+  
+}
+  .myarea textarea {
+    /* margin: 0px 120px !important; */
+    width: 60% !important;
+    font-size: 16px !important;
+  }
+  .row:nth-child(6){
+    margin: 20px 0px 0 0 !important;
+  }
+  .trans {
+    gap: 0px !important;
+  }
+  
+  .area label {
+    margin: 0px -82px !important;
+    width: 60% !important;
+  }
+
+
+  .my-container .myselect {
+    font-size: 18px !important;
+    width: 420px !important;
+    font-weight: bolder !important;
+    margin-top: 4px !important;
+    margin-bottom: 50px !important;
+    }
+  .error-container p, .error-container-2 p {
+    right: 60px !important;
+    font-size: 15px !important;
+  }
+  .myselect option{
+    font-size: 18px !important;
+  }
+
+  h5 {
+    font-size: smaller !important;
+    margin: 0px auto 30px !important;
+  }
+.btn {
+    font-size : 18px !important ;
+    padding: 5px 7px !important;
+    width: fit-content !important;
+  }
+.btn , table tbody tr td .btn {
+    font-size : 18px !important ;
+    padding: 0px 7px !important;
+    width: fit-content !important;
+  }
+  table tr{
+    font-size: 14px !important;
+    font-weight: 700 !important;
+  }
+  table tbody tr td button {
+    margin-top: -45px !important;
+  }
+  .show .row .col input {
+    margin-top: 2px !important;
+    font-size: 12px !important;
+  }
+  .under-line {
+    display: none;
+  }
+
+  .dropdown select {
+    font-size: 14px !important  ;
+    font-weight: 700 !important;
+    width: fit-content !important;
+  }
+  .table-head tr td {
+    font-size: 11px !important;
+  }
+  .danger {
+    
+  height: 25px;
+  }
+  .show-sl {
+    font-size : 14px !important;
+  }
+
+
+
+.button {
+  font-size: 15px !important;
+  border-radius: 16px !important;
+  padding: 7px 0px  !important;
+  width: 88px !important;
+}
+
+
+
+
+.nav-link  {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  margin: 0% !important;
+  padding: 0% !important;
+}
+
+.Toastify div{
+
+  display: flex  !important;
+  justify-content: center  !important;
+  align-items: center  !important;
+}
+.log-in .card {
+  margin-top : 120px !important
+}
+.underline {
+  display: none !important;
+}
+ 
+
+.myselect option{
+  font-size: 18px !important;
+}
+
+h5 {
+  font-size: smaller !important;
+}
+.btn , table tbody tr td .btn {
+  font-size : 18px !important ;
+  padding: 0px 7px !important;
+  width: fit-content !important;
+}
+table tr{
+  font-size: 14px !important;
+  font-weight: 700 !important;
+}
+table tbody tr td button {
+  margin-top: -45px !important;
+}
+.under-line {
+  display: none;
+}
+
+.dropdown select {
+  font-size: 18px !important  ;
+  font-weight: 700 !important;
+  width: fit-content !important;
+}
+
+.danger {
+  
+height: 25px;
+}
+.show-sl {
+  font-size : 14px !important;
+}
+
+
+.button {
+font-size: 15px !important;
+border-radius: 16px !important;
+padding: 7px 0px  !important;
+width: 88px !important;
+}
+
+.form {
+margin-top: 50px !important;
+}
+.eyye {
+width : 20px ; 
+height : 20px ;
+}
+
+.nav-link  {
+font-size: 18px !important;
+font-weight: 700 !important;
+margin: 0% !important;
+padding: 0% !important;
+}
+
+.Toastify div{
+
+display: flex  !important;
+justify-content: center  !important;
+align-items: center  !important;
+}
+.error-container p, .error-container-2 p {
+
+font-size: 15px !important;
+font-weight: 700;
+}
+
+.show .row .col input {
+padding: 8px !important;
+margin-top: 9px !important;
+width: 150px !important;
+font-size : 15px !important;
+font-weight: 700 !important;
+
+}
+h5 {
+  margin-bottom: 40px !important;
+}
+
+.count tr td {
+font-size: 37px !important;
+}
+
+.card div span button {
+font-size: 22px !important;
+}
+
+.mine .card {
+width: 75% !important;
+margin: 160px auto !important;
+}
+.card label {
+font-size: 18px !important;
+margin: -12px auto !important;
+}
+.card input {
+padding: 10px !important;
+
+}
+
+.log-in .card {
+width : fit-content !important ;
+margin-top : 200px !important
+}
+.log-in .card label {
+width : fit-content !important ;
+}
+
+.log-in .card input {
+width : fit-content !important ;
+margin-top: 10px;
+}
+
+.loca textarea {
+  width: 83% !important;
+  margin: 0px 105px !important;
+}
+
+}
+
+
+
+
+@media ( min-width : 460px )and (max-width : 568px ){
+
+  .bar .row .col input ,  .bar .myinput select {
+    width: 120px !important;
+    font-size: 11px !important;
+}
+.bar .row {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+input[type="text"], input[type="password"] {
+  margin: 6px auto 6px !important;
+  padding: 6px 8px !important;
+  }
+.show-sl {
+      width: 124px !important;
+      font-size: 11px !important;
+      padding: 10px 8px !important;
+  }
+
+  .logOut {
+    display: none;
+  }
+
+  h2 {
+    font-size: 14px !important;
+    margin-right: -5px;
+  }
+
+  .LogOut{
+    display: block;
+    background-color: transparent;
+    border-style: none;
+    font-weight: bolder;
+    margin: 10px auto;
+  }
+
+  
+
+  .myinput select {
+    padding: 6px !important;
+    /* background-color: #204d39; */
+    font-size: 12px !important;
+    width: 62% !important;
+    margin-bottom: 7px !important;
+  }
+    .underline {
+      display: none !important;
+    }
+    .mt-5 {
+      margin: 30px !important;
+    }
+
+  .my-container .myselect {
+    padding: 7px 0px !important;
+    font-size: 14px !important;
+    width: 130px !important;
+    font-weight: bolder !important;
+    margin-top: 4px !important;
+    margin-bottom: 50px !important;
+    }
+  .error-container p, .error-container-2 p {
+
+    font-size: 11px !important;
+  }
+  .myselect option{
+    font-size: 18px !important;
+  }
+
+
+  h5 {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    margin: 0px auto 30px !important;
+  }
+.btn , table tbody tr td .btn {
+    font-size : 10px !important ;
+    padding: 0px 7px !important;
+    width: fit-content !important;
+  }
+  table tr{
+    font-size: 14px !important;
+    font-weight: 700 !important;
+  }
+  table tbody tr td button {
+    margin-top: -45px !important;
+  }
+  .under-line {
+    display: none;
+  }
+
+  .dropdown select {
+    font-size: 14px !important  ;
+    font-weight: 700 !important;
+    width: fit-content !important;
+  }
+
+
+  .danger {
+  height: 25px;
+  }
+  .show .row .col input {
+    width: 100px !important;
+    font-size : 9px !important;
+    padding: 10px !important;
+    margin-top: 7px !important;
+ 
+  }
+
+  .show-sl {
+    width: 80px !important;
+    font-size : 9px !important;
+  }
+
+
+.nav-link  {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  margin: 0% !important;
+  padding: 0% !important;
+}
+
+.Toastify div{
+
+  display: flex  !important;
+  justify-content: center  !important;
+  align-items: center  !important;
+}
+.user {
+  margin: auto;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: -2px;
+}
+
+.count tr td {
+  font-size: 25px !important;
+}
+.count tr td {
+  font-size: 28px !important;
+}
+.card div span button {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+}
+
+.mybtn {
+  font-size:  16px !important;
+  font-weight: 600 !important;
+}
+.card label {
+  font-size: 16px !important;
+}
+.mine .card  {
+  margin-top: 200px !important;
+}
+.log-in .card {
+  margin-top : 140px !important
+}
+
+.show .row  {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+  flex-direction: column;
+}
+.show .row .col input {
+  width: 120px !important;
+  font-size : 13px !important;
+  padding: 4px !important;
+}
+.show .row .col select {
+  width: 120px !important;
+  font-size : 12px !important;
+padding: 4px !important;
+margin-bottom: 20px !important;
+}
+.show .row .col:last-of-type {
+  margin: -5px !important ;
+}
+.show .row .col span a {
+  font-size: 14px !important;
+  margin-bottom: 0px !important;
+  /* font-weight: 600 !important; */
+}
+.mt-3 {
+  margin-top: 0rem !important;
+}
+
+}
+
+@media ( min-width : 568px )and (max-width : 744px ){
+
+
+    .bar .row .col input ,  .bar .myinput select {
+      width: 120px !important;
+      font-size: 11px !important;
+  }
+  .mar-4 {
+    margin-top: 0rem !important;
+  }
+
+  input[type="text"], input[type="password"] {
+    margin: 6px auto 6px !important;
+    padding: 6px 8px !important;
+    }
+  .show-sl {
+        width: 124px !important;
+        font-size: 11px !important;
+        padding: 10px 8px !important;
+    }
+
+  .show .num-dev {
+    font-size: 16px !important;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 12px !important;
+}
+  .row-md .col:first-of-type {
+    margin-top: 20px;
+  }
+  
+.my-container {
+  padding: 0;
+}
+
+h2 {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+.devices {
+  /* background-color: #1fa068;  */
+  margin-right: 60px !important;
+}
+  .logOut {
+    display: none;
+  }
+  .LogOut{
+    display: block;
+    background-color: transparent;
+    border-style: none;
+    font-weight: bolder;
+    margin: 10px auto;
+  }
+
+  .row {
+    gap: 4px !important;
+    flex-direction: column;
+    
+  }
+
+    .row .row input {
+    padding: 6px 6px !important;
+    width: 64% !important;
+  }
+
+  .myinput select {
+    padding: 6px !important;
+    font-size: 15px !important;;
+    width: 61% !important;
+    margin-bottom: 0px !important;
+  }
+  .row-md .col:first-of-type {
+    margin-top: 20px;
+  }
+  .m-3 {
+    margin-top: 20px !important;
+    /* transform: translateY(-10%) !important; */
+  }
+.locat {
+    position: relative;
+  }
+.locat label {
+  right: -97px;
+  bottom: 70px;
+}
+
+.button  {
+  transform: translateX(10%) !important;
+}
+h2 {
+  transform: translateX(3%) !important;
+}
+.m-n-1{
+  bottom: 80px !important;
+}
+.locat input {
+  padding: 7px 3px !important;
+}
+
+.mt-4 {
+  margin-top: 0px !important;
+}
+
+   .myinput {
+    margin-top: -2.1px;
+   }
+
+
+  .my-container label {
+    font-size: 18px !important ;
+  }    
+
+
+
+
+  
+
+
+  .button{
+    margin-right: 20px;
+  }
+
+
+  .devices > .col:first-of-type , .devices > .col:nth-child(2){
+    margin-right: -10px !important;
+  
+  }
+
+    .underline {
+      display: none !important;
+    }
+    .mt-5 {
+      margin: 30px !important;
+    }
+
+  .my-container .myselect {
+    padding: 7px 0px !important;
+    font-size: 14px !important;
+    width: 180px !important;
+    font-weight: bolder !important;
+    margin-top: 4px !important;
+    margin-bottom: 50px !important;
+    }
+  .error-container p, .error-container-2 p {
+
+    font-size: 13px !important;
+  }
+  .myselect option{
+    font-size: 18px !important;
+  }
+  .button {
+    margin-top: -10px !important;
+  }
+
+  h5 {
+    font-size: smaller !important;
+    margin: 0px auto 30px !important;
+  }
+.btn {
+    font-size : 14px !important ;
+    padding: 0px 7px !important;
+    font-weight: 600 !important;
+    width: fit-content !important;
+  }
+ table tbody tr td .btn {
+    font-size : 14px !important ;
+    padding: 0px 7px !important;
+    width: fit-content !important;
+  }
+  table tr{
+    font-size: 14px !important;
+    font-weight: 700 !important;
+  }
+  table tbody tr td button {
+    margin-top: -45px !important;
+  }
+  .under-line {
+    display: none;
+  }
+
+  .dropdown select {
+    font-size: 14px !important  ;
+    font-weight: 700 !important;
+    width: fit-content !important;
+  }
+
+  .danger {
+    
+  height: 25px;
+  }
+  .show .row  {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .show .row .col input {
+    width: 120px !important;
+    font-size : 11px !important;
+    padding: 4px !important;
+  }
+  .show .row .col select {
+    width: 120px !important;
+  padding: 4px !important;
+  margin-bottom: 20px !important;
+  }
+  .show .row .col:last-of-type {
+    margin: -5px !important ;
+  }
+  .show .row .col span a {
+    font-size: 15px !important;
+    margin-bottom: 0px !important;
+    /* font-weight: 600 !important; */
+  }
+
+  h2 {
+    text-wrap : nowrap;
+    transform: translateX(-19%);
+    /* margin-right: 0px !important; */
+  }
+.mn-0 {
+  margin: 0px !important;
+}
+
+  .show-sl {
+    font-size : 11px !important;
+  }
+
+
+
+.button {
+  font-size: 15px !important;
+  border-radius: 16px !important;
+  padding: 7px 0px  !important;
+  width: 88px !important;
+}
+
+
+
+
+
+.nav-link  {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  margin: 0% !important;
+  padding: 0% !important;
+}
+
+.Toastify div{
+
+  display: flex  !important;
+  justify-content: center  !important;
+  align-items: center  !important;
+}
+.user {
+  margin: auto;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: -2px;
+}
+
+.count tr td {
+  font-size: 30px !important;
+}
+
+.count tr td {
+  font-size: 30px !important;
+}
+.card div span button {
+  font-size: 18px !important;
+}
+.card label {
+  font-size: 18px !important;
+}
+.mine .card  {
+  margin-top: 200px !important;
+}
+.log-in .card {
+  width: 70% !important;
+  margin-top: 160px !important;
+}
+
+.locat {
+  transform: translateY(-5%);
+}
+.m-n-20{
+  transform: translateY(-50%);
+}
+.error-container p, .error-container-2 p {
+  position: relative !important;
+  margin-top: -3px !important;
+  margin-right: -130px;
+}
+.las-err {
+  top: 2px !important;
+}
+.err-r {
+  transform: translateX(0%) !important;
+}
+.row-md {
+  margin-top: -20px !important;
+}
+
+
+.locat {
+  position: relative;
+}
+.mt-3 {
+  margin-top: 0 !important;
+}
+  .locat label {
+    right: 0px;
+    bottom: 30px;
+}
+
+  .locat:last-of-type label {
+    right: -7px;
+    bottom: 50px;;
+}
+.myarea textarea {
+  margin-top: -30px !important;
+  width: 50% !important;
+  font-size: 16px !important;
+}
+}
+
+@media ( min-width : 745px )and (max-width : 890px ){
+
+  .bar .row .col input ,  .bar .myinput select {
+      width: 120px !important;
+      font-size: 11px !important;
+  }
+
+  .mar-4 {
+    margin-top: 0rem !important;
+  }
+
+  input[type="text"], input[type="password"] {
+    margin: 0 auto 6px !important;
+    }
+  .show-sl {
+        width: 124px !important;
+        font-size: 11px !important;
+        padding: 10px 8px !important;
+    }
+
+  .Cont .my-container {
+    transform: translateY(3%);
+  }
+
+  .show .num-dev {
+    font-size: 16px !important;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 12px !important;
+}
+.row .mt-4 {
+  margin-top: 0 !important;
+}
+.Contt {
+  height: fit-content;
+}
+.my-container {
+  padding: 0;
+}
+h2 {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+.myinput select {
+  padding: 8px !important;
+  /* background-color: #204d39; */
+  font-size: 16px !important;
+  font-weight: 600;
+  width: 62% !important;
+  margin-bottom: 0px !important;
+}
+select option {
+  font-weight: 600;
+}
+.devices {
+  /* background-color: #1fa068;  */
+  margin-right: 60px !important;
+}
+  .logOut {
+    display: none;
+  }
+  .LogOut{
+    display: block;
+    background-color: transparent;
+    border-style: none;
+    font-weight: bolder;
+    margin: 10px auto;
+  }
+
+  .row {
+    gap: 8px !important;
+    flex-direction: column;
+    
+  }
+
+    .row .row input {
+    padding: 10px 6px !important;
+    width: 64% !important;
+  }
+
+  .sel select {
+    margin-bottom: -2px !important;
+  }
+  .row-md .col:first-of-type {
+    margin-top: 20px;
+  }
+  .mt-3 {
+    margin-top: 0rem !important;
+}
+
+  .row input {
+    padding: 10px 6px !important;
+    width: 61.9% !important;
+    font-size: 16px !important;
+  }
+  .mylabel label {
+    position: absolute;
+    right: 160px;
+  }
+  .locat {
+    position: relative;
+  }
+  .mt-3 {
+    margin-top: 0 !important;
+  }
+    .locat label {
+      right: -7px;
+      bottom: 30px;;
+  }
+
+    .locat:last-of-type label {
+      right: -7px;
+      bottom: 50px;;
+  }
+
+
+
+
+
+   .myinput {
+    margin-top: -2.1px;
+   }
+
+  
+
+  .my-container label {
+    font-size: 18px !important ;
+  }   
+  .del label {
+    right: 80px;
+  } 
+  .row label {
+    height: 0px;
+    margin: 20px 0px !important;
+    /* right: 40px !important; */
+  }
+  .m-loc label  {
+    right: 40px !important;
+  }
+  .spec label {
+    right: 80px !important;
+  }
+
+  .area {
+    margin-top: 20px !important;
+  }
+  .row textarea {
+    margin: 0px 20% !important ;
+    width: 60% !important;
+    font-size: 16px !important;
+  }
+
+  .myinput select {
+    padding: 8px;
+    font-size: 18px;
+    text-align: right;
+    width: 61%;
+    margin-bottom: 20px;
+  }
+
+  .row:nth-child(6) {
+    margin: 20px -11px 0 0 !important;
+  }
+  
+  .area label {
+    margin: 0px -30px !important;
+    width: 17% !important;
+  }
+
+  .button{
+    margin-right: 20px;
+  }
+
+
+  .devices > .col:first-of-type , .devices > .col:nth-child(2){
+    margin-right: -10px !important;
+  
+  }
+
+    .underline {
+      display: none !important;
+    }
+    .mt-5 {
+      margin: 30px !important;
+    }
+
+  .my-container .myselect {
+    padding: 7px 0px !important;
+    font-size: 14px !important;
+    width: 180px !important;
+    font-weight: bolder !important;
+    margin-top: 4px !important;
+    margin-bottom: 50px !important;
+    }
+  .error-container p, .error-container-2 p {
+
+    font-size: 13px !important;
+  }
+  .myselect option{
+    font-size: 18px !important;
+  }
+  .button {
+    margin-top: -10px !important;
+  }
+
+  h5 {
+    font-size: smaller !important;
+    margin: 0px auto 30px !important;
+  }
+.btn {
+    font-size : 14px !important ;
+    padding: 0px 7px !important;
+    font-weight: 600 !important;
+    width: fit-content !important;
+  }
+ table tbody tr td .btn {
+    font-size : 14px !important ;
+    padding: 0px 7px !important;
+    width: fit-content !important;
+  }
+  table tr{
+    font-size: 14px !important;
+    font-weight: 700 !important;
+  }
+  table tbody tr td button {
+    margin-top: -45px !important;
+  }
+  .under-line {
+    display: none;
+  }
+
+  .dropdown select {
+    font-size: 14px !important  ;
+    font-weight: 700 !important;
+    width: fit-content !important;
+  }
+
+  .danger {
+    
+  height: 25px;
+  }
+  .show .row  {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .show .row .col input {
+    width: 120px !important;
+    font-size : 11px !important;
+    padding: 4px !important;
+  }
+  .show .row .col select {
+    width: 120px !important;
+  padding: 4px !important;
+  margin-bottom: 20px !important;
+  }
+  .show .row .col:last-of-type {
+    margin: -5px !important ;
+  }
+  .show .row .col span a {
+    font-size: 15px !important;
+    margin-bottom: 0px !important;
+    /* font-weight: 600 !important; */
+  }
+
+  
+
+  
+  .show-sl {
+    font-size : 11px !important;
+  }
+
+
+
+.button {
+  font-size: 15px !important;
+  border-radius: 16px !important;
+  padding: 7px 0px  !important;
+  width: 88px !important;
+}
+
+
+
+
+
+.nav-link  {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  margin: 0% !important;
+  padding: 0% !important;
+}
+
+.Toastify div{
+
+  display: flex  !important;
+  justify-content: center  !important;
+  align-items: center  !important;
+}
+.user {
+  margin: auto;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: -2px;
+}
+
+.count tr td {
+  font-size: 30px !important;
+}
+
+.count tr td {
+  font-size: 30px !important;
+}
+.card div span button {
+  font-size: 18px !important;
+}
+.card label {
+  font-size: 18px !important;
+}
+.mine .card  {
+  margin-top: 200px !important;
+}
+.log-in .card {
+  width: fit-content !important;
+  margin-top: 160px !important;
+}
+.log-in .card label {
+  position: relative !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0px !important;
+  /* margin-bottom: 40px !important; */
+}
+.log-in .card input {
+    width: fit-content !important;
+    margin-top: 30px;
+}
+.locat {
+  transform: translateY(-25%);
+}
+.m-n-20{
+  transform: translateY(-40%);
+}
+}
+
+
+/* screen 2 */
+
+@media ((min-width : 1272px) and (max-width:1440px) ){
+  .logOut {
+  font-size: 15px !important;
+  }
+  .nav-link {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+  }
+.area label{
+  margin-top: 20px;
+  transform: translateX(181%) !important;
+}
+.area {
+  transform: translateX(9%);
+}
+.error-container p, .error-container-2 p {
+  right: 130px !important;
+}
+.loca .myinput textarea {
+    width: 83%;
+    display: block;
+    margin: 0px 145px;
+    border: 2px solid #9c9c9c;
+    border-radius: 12px;
+    padding: 10px 30px 95px;
+}
+}
+
+@media (min-width : 1430px ){
+  .row table {
+    width: 85% !important;
+  }
+  .row input {
+    font-size: 18px !important;
+  }
+  .area label{
+    margin-top: 20px;
+    transform: translateX(265%) !important;
+  }
+  .area {
+    transform: translateX(5%);
+  }
+  .mybtn {
+    font-size: 28px !important;
+    padding: 4px 3px !important;
+  }
+  .my-btn {
+    font-size: 18px !important;
+    padding: 4px 10px !important;
+  }
+  .log-in .card {
+    margin-top : 160px !important
+  }
+  
+
+
+.reserve div .btn {
+  padding: 20px  !important;
+  font-size: 35px !important;
+  font-weight: 600 !important;
+  height: 100px !important;
+  width: 250px !important;
+  
+}
+.nav-link {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+}
+.logOut {
+  font-size: 16px !important;
+  font-weight: 700 !important;
+}
+.showed a {
+  margin-left: 140px !important;
+}
+
+
+}
+
+
+@media ( min-width : 996px )and (max-width : 1272px){
+
+  .show .num-dev {
+    font-size: 18px !important;
+  }
+
+  .navbar-nav li a {
+    margin-left: 4px !important;
+    font-size: 12px  !important;
+  }
+  .my-container {
+    transform: translateY(4%);
+  }
+  .area label{
+    margin-top: 20px;
+    transform: translateX(23.9%) !important;
+  }
+  .row-md .col:first-of-type {
+    margin-top: 20px;
+  }
+  .row {
+    gap: 8px !important;
+  }
+  .row input {
+    padding: 10px 6px !important;
+    width: 60% !important;
+  }
+
+  .my-container label {
+    font-size: 18px !important ;
+  }    
+  .row input {
+    font-size: 18px !important;
+  }
+  .error-container p, .error-container-2 p {
+    right: 80px !important;
+  }
+  .myselect option{
+    font-size: 18px !important;
+  }
+
+.area {
+  margin-top: 20px !important;
+}
+.myarea textarea {
+
+  width: 60% !important;
+  font-size: 16px !important;
+  padding: 10px 30px 50px !important;
+}
+.err-left {
+  margin-right: 50px !important;
+  top: 20px !important;
+}
+.row:nth-child(6){
+  margin: 20px 0px 0 0 !important;
+}
+
+
+.myinput select {
+  padding: 9px !important;
+  /* background-color: #204d39; */
+  font-size: 18px !important;
+  width: 55% !important;
+  margin-bottom: 7px !important;
+}
+
+
+
+  .area {
+    transform: translateX(6%) !important;
+    width: 98% !important;
+  }
+.area label {
+  margin: 0px -88px 12px !important;
+
+  transform: translateX(270%) !important;
+}
+
+  h5 {
+    font-size: smaller !important;
+  }
+.btn , table tbody tr td .btn {
+    font-size : 18px !important ;
+    padding: 0px 7px !important;
+    width: fit-content !important;
+  }
+  table tr{
+    font-size: 14px !important;
+    font-weight: 700 !important;
+  }
+  table tbody tr td button {
+    margin-top: -45px !important;
+  }
+
+
+  .dropdown select {
+    font-size: 18px !important  ;
+    font-weight: 700 !important;
+    width: fit-content !important;
+  }
+
+  .danger {
+    
+  height: 25px;
+  }
+  .show-sl {
+    font-size : 13px !important;
+  }
+
+
+
+.button {
+  font-size: 15px !important;
+  border-radius: 16px !important;
+  padding: 7px 0px  !important;
+  width: 88px !important;
+}
+
+
+.eyye {
+  width : 20px ; 
+  height : 20px 
+}
+
+.nav-link  {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  margin: 0% !important;
+  padding: 0% !important;
+}
+
+.Toastify div{
+
+  display: flex  !important;
+  justify-content: center  !important;
+  align-items: center  !important;
+}
+.error-container p, .error-container-2 p {
+
+  font-size: 15px !important;
+  font-weight: 700;
+}
+
+.mine tr td {
+  font-size: 39px !important;
+}
+.show .row .col input {
+  padding: 8px !important;
+  margin-top: 9px !important;
+  width: 150px !important;
+  font-size : 15px !important;
+  font-weight: 700 !important;
+
+}
+
+h5 {
+  margin-bottom: 40px !important;
+}
+
+.card div span button {
+  font-size: 25px !important;
+}
+
+.mine .card {
+  width: 60% !important;
+  margin: 130px auto !important;
+}
+.role .card {
+  width: 60% !important;
+  margin: 130px auto !important;
+}
+
+.mybtn {
+  font-size: 24px  !important ;
+  padding: 10px !important;
+}
+.log-in .card {
+  width : fit-content !important ;
+  margin-top : 160px !important
+}
+.log-in .card input {
+  width : fit-content !important ;
+}
+
+.log-in .card label {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+.log-in .my-btn , .log-in .btn {
+font-size: 18px !important;
+font-weight: 600;
+padding: 2px;
+}
+.logOut {
+  font-size: 13px !important;
+  font-weight: 700 !important;
+}
+
+.loca textarea {
+  width: 83% !important;
+  margin: 0px 145px !important;
+}
+
+
+}
+
+
+/* screen 2 */
+
+@media (max-width : 568px){
+  .logOut {
+    display: none;
+  }
+  .LogOut{
+    display: block;
+    background-color: transparent;
+    border-style: none;
+    margin: 10px auto;
+    font-weight: 700;
+  }
+  .devices > .col:first-of-type , .devices > .col:nth-child(2){
+    margin-right: -11px !important;
+  }
+ .devices > .col:nth-child(2){
+    margin-right: -11px !important;
+  
+  }
+  .myinput select {
+    padding: 6px !important;
+    /* background-color: #204d39; */
+    font-size: 12px !important;
+    width: 62% !important;
+    margin-bottom: 7px !important;
+  }
+  .devices {
+    flex-direction: column !important;
+  }
+  .row .row{  
+    flex-direction: column;
+  }
+ h2 {
+    font-size: 18px !important;
+    font-weight: 600;
+     
+  }
+.btn  {
+    font-size: 12px !important ;
+    padding: 0px 3px !important;
+    font-weight: bolder;
+    width: fit-content !important;
+  }
+  table tbody tr td .btn {
+    font-size: 8px !important ;
+    padding: 0px 3px !important;
+    font-weight: bolder;
+    width: fit-content !important;
+    margin: auto !important;
+  }
+  .ml-2 .icon{
+    position: absolute;
+    top: 5px  ;
+    width: 35px;
+    height: 35px;
+  } 
+  .ml-2 .user{
+    position: absolute;
+    top: 38px  ;
+    right: 24px;
+    font-size: 13px;
+
+  } 
+  table tr{
+    font-size: 12px !important;
+    font-weight: 700 !important;
+  }
+  table tbody tr td button {
+    margin-top: -45px !important;
+  }
+  .under-line {
+    display: none;
+  }
+
+  .dropdown select {
+    font-size: 12px !important  ;
+    font-weight: 700 !important;
+    width: fit-content !important;
+  }
+
+
+  .danger {
+    
+  height: 25px;
+  }
+  .show-sl {
+    font-size: 10px !important;
+  }
+
+  .nav-link  {
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    margin: 0% !important;
+    padding: 0% !important;
+  }
+
+
+.button {
+  font-size: 14px !important;
+  border-radius: 16px !important;
+  padding: 7px 0px 4px !important;
+  width: 70px !important;
+  margin: 20px auto 0 !important;
+  transform: translateX(21%);
+}
+
+.area label{
+  margin-top: 20px;
+  transform: translateX(0%) !important;
+  transform: translateY(-11%) !important;
+}
+.locat label {
+  bottom:55px;
+  right: 80px;
+}
+.locat .myinput input {
+margin-right: -20px !important;
+}
+.locat {
+ transform: translateX(2%);
+    }
+.row-md .col:first-of-type {
+  margin-top: 20px;
+}
+.button {
+  transform: translateX(5%) !important;
+}
+.row {
+  gap: 8px !important;
+}
+.row .row input {
+  padding: 5px 6px !important;
+  width: 70% !important;
+  font-size: 14px !important;
+}
+.row input {
+  padding: 5px 6px !important;
+  width: 60% !important;
+  font-size: 14px !important;
+}
+
+
+.my-container label {
+  font-size: 12px !important ;
+}    
+
+.error-container p, .error-container-2 p {
+
+}
+.myselect option{
+  font-size: 18px !important;
+}
+
+.area {
+margin-top: 20px !important;
+}
+.row textarea {
+/* margin: 0px 35px !important; */
+width: 60% !important;
+font-size: 16px !important;
+}
+.row:nth-child(6){
+margin: 20px 0px 0 0 !important;
+}
+
+
+.area label {
+margin: 0px -82px !important;
+width: 30% !important;
+}
+.eye {
+  top: 0px !important;
+  left: 10px !important;
+}
+.Toastify {
+  font-size: 10px;
+}
+.Toastify div{
+
+  display: flex  !important;
+  justify-content: center  !important;
+  align-items: center  !important;
+}
+
+
+.my-container .row {
+  width: 100%;
+}
+.my-container h5{
+  transform: translateX(20%) !important;
+}
+h5 {
+  font-size: 16px !important;
+  text-wrap : nowrap ;
+  margin-bottom: 30px !important;
+}
+.my-0 {
+  margin: 0px !important;
+}
+
+label {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  text-wrap : nowrap ;
+  margin: -2px 8px !important;
+}
+.underline {
+  display: none !important;
+}
+.inside-cont {
+  margin: 0 !important;
+  width: 260% !important;
+}
+.row .inp1:nth-of-type(1) {
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  padding: 11px;
+  border-radius: 10px;
+}
+.row .inp1 option {
+  font-size: 12px !important;
+  font-weight: 700 !important;
+
+}
+.error-container p, .error-container-2 p {
+
+  font-size: 11px !important ;
+  margin-top: -10px !important;
+} 
+table thead tr th {
+  text-wrap : nowrap
+}
+.show-sl {
+  margin: 0px !important;
+  padding: 5px 18px !important;
+  margin-bottom: 5px !important;
+}
+.row .col {
+  width: 100%;
+  margin  : 0px !important;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-weight: bolder !important;
+  
+}
+
+.mn-1 {
+  margin-top: 10px !important;
+}
+
+.show .row {
+  gap : 10px
+}
+input[type="text"] , input[type="password"]{
+  padding: 5px 10px !important;
+  height: 30px !important;
+  /* margin: -30px auto 0px !important; */
+}
+input[type="password"] {
+  margin: -50px ;
+}
+.role label {
+  display: flex;
+  align-content: center;
+  margin-right: -8px !important;
+}
+.role label:last-of-type {
+  margin-top: 15px !important;
+}
+
+.cont table .cel-name {
+  width: 50px !important;
+}
+.cont table tr td {
+  font-size: 10px;
+}
+.cont table tr th {
+  padding: 5px !important;
+  font-size: 10px;
+}
+
+
+.col-1 {
+  left: -30px;
+}
+.my-container .row {
+  margin-bottom: 12px !important;
+}
+
+.show .row .col input {
+  padding: 4px !important;
+  margin-top: 9px !important;
+  width: 70px !important;
+  font-size : 8px !important;
+  font-weight: 700 !important;
+
+}
+.reserve .my-5 .btn {
+  font-size: 20px !important;
+  font-weight: bolder;
+  height: 35px !important;
+  width: 100px !important;
+  
+}
+ .mar-4 {
+  margin-top: 0rem !important;
+}
+.role .card input {
+  border-radius: 13px !important;
+}
+
+.user {
+  margin-right: 3px !important;
+}
+
+.show-sl {
+  width: 122px !important;
+  font-size : 9px !important;
+}
+
+.mine .card {
+  margin-top: 220px !important;
+}
+
+.mine tr td {
+  font-size: 18px !important;
+  padding:  0 2rem !important;
+}
+.mine div span button {
+  width: max-content !important;
+  padding: 2px !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+}
+
+
+/* .card label  {
+  margin: 120px !important;
+} */
+
+.card button{
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  padding: 0px !important;
+  margin-top: 30px !important;
+}
+.eye {
+  top: -15px !important;
+  left: 10px !important;
+}
+.eye svg{
+  width: 18px !important;
+  height: 12px !important;
+}
+.log-in .card {
+  /* width : 100% !important ; */
+  margin-top : 140px !important
+}
+
+.show .row  {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px !important;
+}
+
+.show .row .col input {
+  width: 120px !important;
+  font-size : 11px !important;
+  margin-top: 10px !important;
+  padding: 4px !important;
+}
+.show .row .col select {
+padding: 4px !important;
+width: 128px !important;
+}
+.show .row .col:last-of-type {
+  margin: 0px !important;
+}
+.inside-cont .row label {
+  margin-top: -3px !important;
+}
+.inside-cont .row select {
+  padding: 5px !important;
+  font-size: 9px !important ;
+}
+.button {
+  font-size: 13px !important;
+  border-radius: 16px !important;
+  padding: 5px 0px  !important;
+  width: 60px !important;
+  margin: auto !important;
+  transform: translateX(0%);
+  }
+}
+
+/* @tailwind base ;
+@tailwind components;
+
+@tailwind utilities ; */
+

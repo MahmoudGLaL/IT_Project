@@ -1,0 +1,338 @@
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+  h5 {
+    color: #343a40 ;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  p {
+    /* color: rgb(2, 89, 95); */
+      width: 100%;
+      text-align: center;
+      border: 1px solid #EEE;
+  }
+
+  h2 {
+    background-color: beige;
+    padding: 2px 15px ;
+  }
+
+  .my-container {
+    width: 100%;
+    background-color: white;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* margin: auto; */
+    border-radius: 2%;
+    box-shadow: rgba(187, 187, 187, 0.878) ;
+    border: 1px solid #c5c4c4;
+  }
+
+  .inside-cont {
+    margin: 0 75px 0 0px;
+    box-shadow: rgba(0, 125, 184, 0.878) ;
+  }
+
+  .my-container .row {
+    width: 100%;
+    display: flex;
+    gap: 0px;
+  }
+  
+  .my-container label {
+
+    color: rgb(85, 7, 7) ;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    
+  }
+  .devices {
+    padding: 0 5rem;
+  }
+
+
+  .row textarea {
+    width: 77% ;
+    display: block;
+    margin: 25px 230px  ;
+    border: 2px solid #9c9c9c;
+    border-radius: 12px;
+    padding: 10px 30px 95px ;
+  }
+  .area label{
+    margin-top: 20px;
+    margin-right: -7%;
+    
+  }
+
+  .med {
+    right: -35px;
+  }
+
+  .lab2 {
+    right: 328px;;
+  }
+
+  .myinput select {
+    font-weight: 600;
+  }
+ select option {
+    font-weight: 600;
+  }
+
+  .underline {
+    display: block;
+    width: 110px;
+    height: 2px;
+    background-color: #343a40;
+
+    /* text-decoration: underline dotted; */
+  }
+
+  
+  .row .inp1{
+    display: inline;
+    padding: 15px;
+    font-size: 20px;
+    text-align: right;
+    width: 50%;
+    border: 2px solid #9c9c9c;
+    border-radius: 12px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+      z-index: 99;
+  }
+
+  .row input[type="text"]:focus {
+    color: black;
+  }
+  
+
+
+.mylabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.devices > .col:first-of-type , .devices > .col:nth-child(2){
+  margin-right: -21px;
+}
+
+.myinput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.w-90 {
+  width: 90%;
+  margin: auto;
+}
+
+
+  /* .row:last-of-type input[type="text"]:last-of-type
+  {
+    width: 278px;
+    margin: 13px -10px 13px 0px ;
+  }
+  .row:last-of-type input[type="text"]:first-of-type
+  {
+    width: 230px;
+    
+  } */
+
+
+  .row .op-date:first-child input {
+    background-color: aquamarine ;
+
+  }
+  
+
+
+    .button {
+      font-size: 22px;
+      color: beige;
+      background-color: rgb(7, 98, 184);
+      border-radius: 38px;
+      cursor: pointer;
+      text-align: center;
+      padding: 20px 0px 23px;
+      width: 183px;
+      border: 1px solid black;
+      font-weight: bolder;
+  }
+  .button:hover {
+    background-color: beige;
+    color: rgb(7, 98, 184);
+    font-weight: bolder;
+  }
+
+  /* .show-button {
+    color: rgb(184, 137, 7);
+
+  } */
+
+  .my-btn
+  {
+    padding: 10px 25px;
+    margin-left: -30px;
+  }
+
+  .my-btn:first-of-type {
+    background-color: rgb(61, 117, 221) !important;
+
+  }
+  .my-btn:last-of-type {
+    background-color: rgb(241, 65, 65) !important;
+  }
+
+  
+.my-btn:last-of-type:hover {
+  background-color: rgb(255, 0, 0) !important;
+}
+.my-btn:first-of-type:hover {
+  background-color: rgb(0, 71, 202) !important;
+}
+  .error-container  {
+    margin-top: 5px;
+    position: relative;
+  }
+
+  .error-cont
+  {
+    position: relative;
+  }
+
+
+  /* .row:last-of-type .error-cont p {
+    left: -210px;
+  } */
+
+  .error-container p , .error-container-2 p{
+    position: absolute;
+    right: 180px;
+    font-size: 17px;
+    font-weight: 600;
+    color: red;
+    text-align: right;
+    border: transparent;
+    margin-top: -22px;
+    
+  }
+  .error-container-2 p {
+    right: 100px;
+  }
+  .mr-n-2{
+    margin-right: -20px;
+  }
+  .mr-n-6{
+    margin-right: 60px;
+  }
+
+
+
+  
+
+  /* hide the webkit of input num */
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; /* Optional */
+}
+  
+input[type="date"]{
+  text-align: right;
+}
+
+  /* date input styling */
+
+  input[type="date"]::-webkit-datetime-edit, input[type="date"]::-webkit-inner-spin-button, input[type="date"]::-webkit-clear-button {
+    color: transparent;
+    position: relative;
+  }
+  
+  input[type="date"]::-webkit-datetime-edit-year-field{
+    position: absolute !important;
+    border-left:1px solid #8c8c8c;
+    padding: 4px;
+    color:#000;
+
+    left: 75px;
+    top: -4px;
+  }
+  
+  input[type="date"]::-webkit-datetime-edit-month-field{
+    position: absolute !important;
+    border-left:1px solid #8c8c8c;
+    padding: 6px;
+    color:#000;
+    left: 31px;
+    top: -5px;
+  }
+  
+  
+  input[type="date"]::-webkit-datetime-edit-day-field{
+    position: absolute !important;
+    color:#000;
+    padding: 6px;
+    left: -3px;
+    top: -5px;
+    
+  }
+.m-n-10 {
+  margin-right: -65px ;
+}
+  
+  .lab1 {
+    margin-right: -145px  ;
+    margin-top: 25px;
+  } 
+  .my-lab {
+    margin-right: -12px  ;  
+    margin-top: 15px;
+  }
+  .doc-time input {
+    margin-right: 40px ;
+    background-color: #c3d8f0;
+  }
+
+  .c-date {
+    margin-right: -4px;
+  }
+  .doc-time {
+    margin-right: -9px;
+    margin-top: 9px;
+  }
+  .las-e {
+
+    transform: translateX(-31%);
+  }
+  .las-err {  
+
+    top: 18px;
+  }
+  .err-left {
+    right: 0px !important;
+  }
+  .err-r {
+   transform: translateX(-28%);
+  }
+  .connt {
+    margin-top: 15px;
+  }
+
+
+
+  /* rgb(127, 129, 255) ; */

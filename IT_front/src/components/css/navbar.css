@@ -1,0 +1,25 @@
+ul {
+    width: 100%;
+    background-color: black;
+    padding: 20px 0 ;
+    margin: 0;
+  }
+  ul li {
+     padding: 20px;
+     display: inline;
+  }
+  
+  ul li .my-link {
+    color: white;
+    text-decoration: none;
+  }
+  .nav-link:hover{
+    background-color: #14a4cc;
+  }
+.active{
+    color: #ff0062;
+  } 
+
+  .my-link a:hover {
+    background-color: #a71818;
+  }
